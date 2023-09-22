@@ -1,0 +1,86 @@
+*{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+.parent{
+    background-color:green;
+    min-height:100px;
+    padding: 2px;
+    display:flex;
+}
+.child{
+    min-height: 50px;
+    min-width:50px;
+
+}
+.red{
+    background-color:red;
+}
+.yellow{
+    background-color: yellow;
+}
+.example1{
+    justify-content:space-between;
+    align-items:center;
+}
+.example2{
+align-items: stretch;
+}
+.mainbox{
+    background-color:yellow;
+    order: 2;
+    flex:3;
+}
+.aside1{
+    background-color:lightblue;
+    order:1;
+    flex:1;
+}
+.aside2{
+    background-color: pink;
+    order:3;
+    flex:1;
+}
+.example3 .child{
+    flex:1;
+           }
+.fake{
+    color:white;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+    margin: 2px;
+}
+.layout4{
+    flex-direction:column;
+}
+.light{
+    background-color:lightblue;
+    min-height: 50px;
+    min-width: 50px;
+    flex:6;
+}
+.dark{
+    background-color:blue;
+    min-height:10px;
+    min-width:10px;
+    flex:1;
+}
+.layout5{
+    flex-direction:column;
+}
+.yellowline{
+    min-height:30px;
+    margin:3px;
+    background-color:yellow;
+    flex:1;
+}
+.bars{
+    display:flex;
+    flex-direction:row;
+    flex:6;
+    justify-content:space-around;
+}
